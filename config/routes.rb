@@ -1,4 +1,6 @@
 Sonny::Application.routes.draw do
+  resources :shows
+
   devise_for :users
   
   # home
