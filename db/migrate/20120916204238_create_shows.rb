@@ -3,6 +3,8 @@ class CreateShows < ActiveRecord::Migration
     create_table :shows do |t|
       t.string :name
       t.text :description
+      t.string :api_id
+      t.string :imdb_id
 
       t.timestamps
     end

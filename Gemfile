@@ -16,6 +16,7 @@ platforms :mri_19, :mingw_19 do
 end
 
 gem 'devise'
+gem 'nokogiri'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

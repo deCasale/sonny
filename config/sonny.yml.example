@@ -1,2 +1,3 @@
 production:
-  thetvdb_api_key: XXXXXXXXXXXXXX
+  tvapi: thetvdb
+  tvapi_key: XXXXXXXXXXXXXX

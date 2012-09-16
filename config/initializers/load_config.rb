@@ -1,1 +1,0 @@
-SONNY_CONFIG = YAML.load_file("#{Rails.root}/config/sonny.yml")[Rails.env]
